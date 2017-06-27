@@ -1,6 +1,6 @@
 // Set view of Leaflet map based on screen size
 var layer = new L.tileLayer('http://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey={apikey}', {
-	attribution: '<a href= "mailto:ijaguirre@uc.cl" target="_blank"> Cartografia: Ignacio Aguirre &copy <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+	attribution: 'Cartografia: Ignacio Aguirre y Esteban Soler &copy <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 	apikey: 'efbb614508e045beb3c1002201c66ba2',
 	maxZoom: 22
 });
